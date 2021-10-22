@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="xhr@10.112.33.61:233" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="StreamXhr@10.112.33.61">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/aitrans" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="xhr@10.112.184.137:233 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="xhr@10.112.33.61:233">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/xhr/aitrans" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="xhr@10.112.91.89:233 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

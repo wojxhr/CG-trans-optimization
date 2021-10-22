@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6f64db10-54c1-4868-8619-0cabf418e6cf" name="StreamXhr@10.112.33.61">
+        <fileTransfer rootFolder="/home/xhr" accessType="SFTP" host="10.112.33.61" port="233" sshConfigId="d9eec7d9-13cd-4bda-ad65-d5c2f52a3dd3" sshConfig="xhr@10.112.33.61:233 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="150000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
