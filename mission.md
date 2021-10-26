@@ -49,3 +49,10 @@ DRL输入为网络情况，奖励设置时加入优先级奖励
 数据预处理问题：
 设置一个episode，每隔一个episode处理一次，所以需要考虑时间同步，以秒为单位好一些，控制信令与视频数据与音频数据如何进行同步
 
+10.26：
+deadline：
+1.ITU-T,Y.IMT2020-qos-req-cg,但是处于under study状态，还无法使用，这个可以得到关于云游戏的延迟qos参数
+2.13年IEEE Network论文，关于各种游戏的latency threshold，再加上18TCSVT的那一篇delay模型，自己大概估计一个？
+3.domain expert
+
+
