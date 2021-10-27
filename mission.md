@@ -54,5 +54,7 @@ deadline：
 1.ITU-T,Y.IMT2020-qos-req-cg,但是处于under study状态，还无法使用，这个可以得到关于云游戏的延迟qos参数
 2.13年IEEE Network论文，关于各种游戏的latency threshold，再加上18TCSVT的那一篇delay模型，自己大概估计一个？
 3.domain expert
+4.DetNet的end-end delay model计算。
+5.ACM MM的图
 
 
