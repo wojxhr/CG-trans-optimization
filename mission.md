@@ -72,3 +72,10 @@ deadline：
 1.deadline感知？
 2.如何将最终模型与平台相结合？（部署问题：其实这是一个跨层优化问题，内容感知肯定是发生在应用层，决策是在网络层，目前问题在于，既然在网络层决策，那么数据收集是否应该在网络层收集，数据收集代码是在应用层收集的，到时候部署在真实的平台中可能会发生问题） 无法进行结合，只能进行仿真。
 
+模型1：user priority adjust（input:每个用户一段时间内控制信令的信息，与vmaf值，output:每个用户的相对优先级）
+
+模型2:is_better （input：network信息(inflight，丢包，带宽预测)，best_block信息，比较的block信息 output:决策哪个block好）
+
+模型3：rate adaptation （input:network信息(同上，经过attention)，一段时间内的bestblock决策信息 output:发送速率）
+
+总体调用learn好还是每个单独的模型learn一遍
